@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite US Modern", cursive;
+}
+
+.container {
+    width: 100vw;
+    height: 30vh;
+    background-color: black;
+    text-align: center;
+    padding: 45px;
+}
+
+.container h1 {
+    color: aliceblue;
+}
+
+.container p {
+    color: yellow;
+}
+
+.chotti-patti {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 7vh;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.chotti-patti a {
+    color: black;
+    text-decoration: none;
+}
+
+.bar {
+    background-color: rgb(232, 225, 225);
+    display: flex;
+    padding: 30px;
+}
+
+.left-bar {
+    width: 65vw;
+    height: auto;
+    margin-top: 20px;
+}
+
+.right-bar {
+    padding: 10px;
+    width: 25vw;
+    height: 100%;
+    margin-left: 30px;
+}
+
+
+.fight-club {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.fight-club article {
+    width: 90%;
+}
+
+.fight-club img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.fight-club h2 {
+    text-align: center;
+    background-color: yellow;
+    padding: 5px;
+    margin-top: -5px;
+}
+
+.fight-club p {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.first-line {
+    display: flex;
+}
+
+.second-line {
+    width: 65vw;
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.second-line .boxes {
+    width: 100%;
+    height: auto;
+}
+
+.second-line img {
+    width: 100%;
+}
+
+.boxes h2 {
+    text-align: center;
+    background-color: yellow;
+    margin-top: -5px;
+}
+
+.boxes p {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.big-image {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.big-image img {
+    width: 100%;
+}
+
+.big-image h2 {
+    text-align: center;
+    background-color: yellow;
+    margin-top: -5px;
+}
+
+.big-image p {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.baby-driver {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background-color: black;
+}
+
+#watch h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.baby-driver img {
+    width: 40%;
+    height: 100%;
+}
+
+.baby-driver h1 {
+    width: 60%;
+    margin-top: 130px;
+    color: bisque;
+}
+
+.baby-driver p {
+    color: white;
+}
+
+.baby-driver a {
+    color: white;
+}
+
+#movies {
+    text-align: center;
+}
+
+#gallery {
+    text-align: center;
+    padding: 10px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+#downn h1 {
+    text-align: center;
+}
+
+.download {
+    width: 100%;
+    height: 60vh;
+    margin-top: 10px;
+    /* border: 2px black solid; */
+}
+
+.download img {
+    width: 100%;
+    height: 70%;
+}
+
+.gallery {
+    width: 65vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+}
+
+.row1 {
+    grid-column: span 3;
+}
+
+.row1 {
+    background-size: cover;
+}
+
+/* right bar */
+.small-page-1 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.small-page-1 h3 {
+    padding: 10px;
+}
+
+.small-page-1 ul {
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.small-page-1 ul li {
+    padding: 3px;
+}
+
+.small-page-1 ul li {
+    display: inline;
+    display: grid;
+}
+
+.small-page-2 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.small-page-2 ul li {
+    display: inline;
+    display: grid;
+}
+
+.small-page-2 h3 {
+    padding: 10px;
+}
+
+.small-page-2 ul {
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.small-page-2 ul li {
+    padding: 3px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -20px;
+}
+
+
+/* media querries */
+@media only screen and (max-width:455px) {
+    .container {
+        width: 100vw;
+        height: 30vh;
+        background-color: black;
+        padding: 80px;
+    }
+     .fight-club {
+        flex-direction: column;
+     }
+    .right-bar {
+        display: none;
+    }
+   .left-bar {
+    width: 100vw;
+    height: auto;
+   }
+
+     .box--1 {
+    width: 100%;
+    height: auto;
+    padding: 10px 30px;
+   }
+   .box--1 article {
+    width: 100%;
+    height: auto;
+   }
+   .box--2 {
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+    padding: 10px 30px;
+   }
+   .box--2 article {
+    width: 100%;
+    height: auto;
+   }
+   .second-line {
+    width: 90vw;
+    flex-direction: column;
+   }
+   .second-line .boxes {
+    padding: 30px;
+    margin-top: -30px;
+   }
+   .big-image {
+    padding: 30px;
+    margin-top: -30px;
+   } 
+   .baby-driver {
+    width: 100%;
+    height: 60vh;
+   }
+   #downn {
+    display: none;
+   }
+   .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .gallery .pic{
+    width: 70vw;
+    margin-left: 30px;
+   }
+   .gallery .pic img {
+    width: 100%;
+    height: 300px;
+   }
+}
+/* .gallery {
+    width: 65vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+}
+ */
